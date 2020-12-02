@@ -5,7 +5,6 @@ import java.util.Calendar;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
 import residents.domain.Resident;
 import residents.repository.ResidentRepository;
 
@@ -20,7 +19,6 @@ public class BaseResidentService implements ResidentService {
   
   public BaseResidentService() {
   }
-  
   /**
    * @param filterResident
    * @throws ResidentServiceException
